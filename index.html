@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latihan Dicoding</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- My font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" />
   </head>
+
   <body>
     <!-- Membuat header yang menampilakan profil singkat kota Bandung dan navigasi webstie -->
-    <header>
+    <header class="hero">
       <h1>Bandung</h1>
       <p>
         Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu
@@ -27,10 +34,10 @@
 
     <main>
       <div id="content">
-        <article id="sejarah">
+        <article id="sejarah" class="card">
           <!-- membuat artikel mengenai sejarah, geografis, dan transpotasi di kota bandung -->
           <h2>Sejarah</h2>
-          <img src="image/gedung_Sate.jpg" alt="" />
+          <img class="featured-image" src="image/gedung_Sate.jpg" alt="" />
           <p>
             Bandung dulunya merupakan bagian dari Kerajaan Pajajaran, sebelum
             kemudian menjadi bagian dari Kesultanan Cirebon. Pada abad ke-18,
@@ -47,9 +54,9 @@
           </p>
         </article>
 
-        <article id="geografi">
+        <article id="geografi" class="card">
           <h2>Geografi</h2>
-          <img src="image/sungai_Citarum.jpeg" alt="" />
+          <img class="featured-image" src="image/sungai_Citarum.jpeg" alt="" />
           <p>
             Bandung terletak pada ketinggian 768 meter di atas permukaan laut,
             dengan topografi berbukit. Kota ini dikelilingi oleh pegunungan,
@@ -58,22 +65,22 @@
             Citarum.
           </p>
           <p>
-            Bandung memiliki iklim tropis dengan dua musim, yaitu musim hujan dan musim
-            kemarau. Suhu udara di Bandung relatif sejuk dibandingkan dengan kota-kota
-            besar lainnya di Indonesia, dengan suhu rata-rata berkisar antara 19°C hingga
-            23°C.
+            Bandung memiliki iklim tropis dengan dua musim, yaitu musim hujan
+            dan musim kemarau. Suhu udara di Bandung relatif sejuk dibandingkan
+            dengan kota-kota besar lainnya di Indonesia, dengan suhu rata-rata
+            berkisar antara 19°C hingga 23°C.
           </p>
           <p>
-            Kota ini juga dikenal dengan julukan "Kota Kembang" karena banyaknya bunga
-            yang tumbuh di daerah ini. Selain itu, Bandung juga memiliki banyak taman
-            kota dan ruang terbuka hijau yang menjadi tempat rekreasi bagi warga dan
-            wisatawan.
+            Kota ini juga dikenal dengan julukan "Kota Kembang" karena banyaknya
+            bunga yang tumbuh di daerah ini. Selain itu, Bandung juga memiliki
+            banyak taman kota dan ruang terbuka hijau yang menjadi tempat
+            rekreasi bagi warga dan wisatawan.
           </p>
         </article>
 
-        <article id="transportasi">
+        <article id="transportasi" class="card">
           <h2>Transportasi</h2>
-          <img src="image/bandara.jpg" alt="" />
+          <img class="featured-image" src="image/bandara.jpg" alt="" />
           <p>
             Bandung memiliki beberapa moda transportasi, di antaranya adalah
             angkutan kota, bus kota, dan kereta api. Bandung juga memiliki
@@ -85,7 +92,7 @@
 
       <!-- Membuat konten aside yang menampilkan lambang darikota Bandung  -->
       <aside>
-        <article>
+        <article class="profile">
           <header>
             <h2>Kota Bandung</h2>
             <p>Kota Kembang Paris Van Java</p>
