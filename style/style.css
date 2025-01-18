@@ -1,7 +1,6 @@
-:root {
+* {
+  box-sizing: border-box;
   font-family: "Space Mono", monospace;
-  padding: 0;
-  margin: 0;
 }
 
 body {
@@ -46,14 +45,22 @@ nav li {
 }
 
 main {
-  padding: 30px;
+  padding: 20px;
   margin: 20px;
+  overflow: auto;
+}
+
+#content {
+  float: left;
+  width: 70%;
+  padding-right: 30px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 30px;
-  padding: 20px;
+  padding: 35px;
+  margin-bottom: 35px;
 }
 
 /* featured image are all image in the article */
@@ -72,6 +79,11 @@ main {
 .profile img {
   width: 100%;
   max-width: 300px;
+}
+
+aside {
+  float: right;
+  width: 30%;
 }
 
 footer {
