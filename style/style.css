@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
-  font-family: "Space Mono", monospace;
+  font-family: sans-serif;
+  --main-color: rgb(34, 139, 34);
+  --sec-color: rgb(45, 204, 45);
 }
 
 body {
@@ -9,13 +11,14 @@ body {
 }
 
 nav {
-  background-color: darkturquoise;
+  background-color: var(--sec-color);
   padding: 5px;
 }
 
 nav a {
   text-decoration: none;
   font-size: 15px;
+  color: white;
 }
 
 nav a:hover {
@@ -30,18 +33,18 @@ nav li {
 
 .hero {
   padding: 60px;
-  background-color: cyan;
+  background-color: var(--main-color);
   text-align: center;
 }
 
 .hero h1 {
   font-size: 60px;
-  color: blueviolet;
+  color: white;
 }
 
 .hero p {
   font-size: 20px;
-  color: darkcyan;
+  color: white;
 }
 
 main {
@@ -89,7 +92,7 @@ aside {
 footer {
   padding: 20px;
   color: white;
-  background-color: blue;
+  background-color: var(--main-color);
   text-align: center;
   font-weight: bold;
 }
